@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,185,43,1) 50%, rgba(203,0,0,1) 100%); 
+}
+
+/* Nav elements start here */
+.nav-structure {
+  padding: 25px 30px 25px 25px;
+}
+
+.button-like-style {
+  border-radius: 10px;
+}
+
+.button-like-style:hover {
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Nav elements end here */
+
+/* About section starts here */  
+.image-in-carousel {
+  height: 16.7rem;
+}
+
+/* About section ends here */
+
+/* Album section starts here */
+.card-inner-modified {
+  height: 13rem;
+}
+
+/* Album section ends here */
+
+/* Contact section styling starts here */
+.contact {
+  margin-top: 7rem;
+}
+
+.contact h2 {
+  -webkit-text-stroke: 0.2px black;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--bottom-margin-2);
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset var(--primary-color);
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+
+/* End of contact section */
+
+/* Footer section styling starts here */
+footer {
+  background-color: var(--bg-color);
+  font-size: 30px;
+  padding: 1.25rem;
+  text-align: center;
+  margin: 6rem 0 0;
+}
+/* Footer section styling ends here */
