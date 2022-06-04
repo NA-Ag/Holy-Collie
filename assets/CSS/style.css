@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
 body {
-  background: rgb(255,255,255);
-  background: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,185,43,1) 50%, rgba(203,0,0,1) 100%); 
+  background: rgb(193, 63, 222);
+  background: linear-gradient(315deg, rgba(227,201,201,1) 0%, #c27cf8 100%); 
 }
+
 
 /* Nav elements start here */
 .nav-structure {
@@ -15,7 +16,7 @@ body {
 }
 
 .button-like-style:hover {
-  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  background-image: linear-gradient(to right, #b4aee8 0%, #f6f6f6  51%, #ff80f4  100%);
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
@@ -115,3 +116,29 @@ footer {
   margin: 6rem 0 0;
 }
 /* Footer section styling ends here */
+
+.puppy-paw {
+  justify-content: center;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.Mountain {
+  height: 330px;
+}
+
+.bottom-Cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-Cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
